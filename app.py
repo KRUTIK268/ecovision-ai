@@ -18,34 +18,34 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
 
 :root {
-    --bg-main:    #E0F2F1;
-    --bg-mid:     #B2DFDB;
-    --bg-deep:    #80CBC4;
-    --accent:     #00796B;
-    --accent-light: #26A69A;
-    --accent-dark:  #004D40;
-    --amber:      #F57F17;
-    --red:        #C62828;
-    --text:       #1A3C38;
-    --text-mid:   #37474F;
-    --text-muted: #78909C;
-    --border:     rgba(0,121,107,0.2);
-    --border-mid: rgba(0,121,107,0.35);
-    --card-bg:    rgba(255,255,255,0.55);
-    --card-bg-strong: rgba(255,255,255,0.75);
-    --shadow:     0 4px 24px rgba(0,77,64,0.10);
-    --shadow-md:  0 8px 32px rgba(0,77,64,0.14);
+    --bg-main:    #C8DFC8;
+    --bg-mid:     #B5D4B5;
+    --bg-deep:    #9EC49E;
+    --accent:     #3A7D44;
+    --accent-light: #5A9E62;
+    --accent-dark:  #235C2A;
+    --amber:      #D4813A;
+    --red:        #B83232;
+    --text:       #1A2E1A;
+    --text-mid:   #2E472E;
+    --text-muted: #5A7A5A;
+    --border:     rgba(58,125,68,0.20);
+    --border-mid: rgba(58,125,68,0.30);
+    --card-bg:    rgba(240,250,240,0.55);
+    --card-bg-strong: rgba(240,250,240,0.78);
+    --shadow:     0 4px 24px rgba(35,92,42,0.10);
+    --shadow-md:  0 8px 32px rgba(35,92,42,0.14);
 }
 
 html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
-    background: linear-gradient(160deg, var(--bg-main) 0%, var(--bg-mid) 50%, var(--bg-deep) 100%) !important;
+    background: linear-gradient(150deg, #C8DFC8 0%, #B5D4B5 45%, #9EC49E 100%) !important;
     min-height: 100vh;
     color: var(--text) !important;
     font-family: 'Inter', sans-serif !important;
 }
 
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, rgba(224,242,241,0.97) 0%, rgba(178,223,219,0.97) 100%) !important;
+    background: linear-gradient(180deg, rgba(200,223,200,0.97) 0%, rgba(158,196,158,0.97) 100%) !important;
     border-right: 1px solid var(--border-mid) !important;
     backdrop-filter: blur(12px);
 }
@@ -106,7 +106,7 @@ h1, h2, h3 { font-family: 'Inter', sans-serif !important; color: var(--text) !im
 
 /* Tabs */
 .stTabs [data-baseweb="tab-list"] {
-    background: rgba(255,255,255,0.45) !important;
+    background: rgba(180,215,180,0.55) !important;
     border-radius: 12px !important;
     padding: 5px !important;
     border: 1px solid var(--border) !important;
@@ -149,7 +149,7 @@ h1, h2, h3 { font-family: 'Inter', sans-serif !important; color: var(--text) !im
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 50%, var(--accent-light) 100%);
+    background: linear-gradient(135deg, #1A3A1A 0%, #3A7D44 55%, #5A9E62 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -165,7 +165,7 @@ h1, h2, h3 { font-family: 'Inter', sans-serif !important; color: var(--text) !im
 }
 
 .slogan-bar {
-    background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(178,223,219,0.7), rgba(255,255,255,0.6));
+    background: linear-gradient(90deg, rgba(200,223,200,0.75), rgba(181,212,181,0.85), rgba(200,223,200,0.75));
     border: 1px solid var(--border-mid);
     border-radius: 14px;
     padding: 14px 28px;
@@ -197,7 +197,7 @@ h1, h2, h3 { font-family: 'Inter', sans-serif !important; color: var(--text) !im
 }
 
 .tip-box {
-    background: linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(178,223,219,0.5) 100%);
+    background: linear-gradient(135deg, rgba(220,238,220,0.80) 0%, rgba(181,212,181,0.60) 100%);
     border: 1px solid var(--border-mid);
     border-radius: 14px;
     padding: 16px 20px;
@@ -219,7 +219,7 @@ h1, h2, h3 { font-family: 'Inter', sans-serif !important; color: var(--text) !im
     display: inline-block;
     min-width: 100px;
     text-align: center;
-    box-shadow: 0 6px 20px rgba(0,77,64,0.30);
+    box-shadow: 0 6px 20px rgba(26,92,66,0.30);
 }
 
 .badge-recyclable {
@@ -434,7 +434,7 @@ with st.sidebar:
     <div style="text-align:center; padding:14px 0 10px 0;">
       <div style="font-size:2.4rem; margin-bottom:4px;">♻️</div>
       <div style="font-family:'Inter',sans-serif; font-size:1.3rem; font-weight:800;
-        background:linear-gradient(135deg,#004D40,#00796B,#26A69A);
+        background:linear-gradient(135deg,#1A3A1A,#3A7D44,#5A9E62);
         -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
         EcoVision AI
       </div>
@@ -481,7 +481,7 @@ with st.sidebar:
         st.markdown(f"""
         <div class="stat-row">
           <span>Recycling Rate</span>
-          <strong style="color:#00796B;">{rec_pct_s:.0f}%</strong>
+          <strong style="color:#3A7D44;">{rec_pct_s:.0f}%</strong>
         </div>
         """, unsafe_allow_html=True)
 
@@ -489,7 +489,7 @@ with st.sidebar:
     st.markdown("""
     <div style="text-align:center; color:#78909C; font-size:0.75rem; padding-bottom:10px;">
       🌍 Building a greener planet<br>
-      <strong style="color:#00796B;">EcoVision AI v3.0</strong>
+      <strong style="color:#3A7D44;">EcoVision AI v3.0</strong>
     </div>
     """, unsafe_allow_html=True)
 
@@ -622,12 +622,12 @@ with tab1:
 
             # Confidence bar
             st.markdown('<div class="conf-label">Top Prediction Confidence</div>', unsafe_allow_html=True)
-            conf_color = "#00796B" if top_conf >= 0.6 else "#F57F17"
+            conf_color = "#3A7D44" if top_conf >= 0.6 else "#F57F17"
             st.markdown(f"""
             <div style="display:flex; align-items:center; gap:14px; margin-bottom:20px;">
               <div style="flex:1; background:rgba(0,121,107,0.12); border-radius:99px; height:14px; overflow:hidden; border:1px solid rgba(0,121,107,0.2);">
                 <div style="width:{top_conf*100:.1f}%; height:100%;
-                  background:linear-gradient(90deg,#004D40,{conf_color});
+                  background:linear-gradient(90deg,#235C2A,{conf_color});
                   border-radius:99px;"></div>
               </div>
               <span style="font-family:'Space Mono',monospace; font-size:0.92rem;
@@ -638,7 +638,7 @@ with tab1:
             # Top-3 breakdown
             st.markdown('<div class="section-title">Top 3 Predictions</div>', unsafe_allow_html=True)
             rank_icons  = ["🥇", "🥈", "🥉"]
-            rank_colors = ["#004D40", "#00796B", "#26A69A"]
+            rank_colors = ["#235C2A", "#3A7D44", "#5A9E62"]
             for rank, (lbl, prob) in enumerate(top3):
                 st.markdown(f"""
                 <div class="glass-card" style="padding:14px 18px; margin-bottom:10px;">
@@ -680,7 +680,7 @@ with tab1:
               </div>
               <div style="color:#78909C; font-size:0.92rem; line-height:1.7;">
                 Upload an image and click<br>
-                <strong style="color:#00796B;">Analyse Waste</strong> to get started.
+                <strong style="color:#3A7D44;">Analyse Waste</strong> to get started.
               </div>
             </div>
             """, unsafe_allow_html=True)
@@ -740,13 +740,13 @@ with tab2:
                 </div>
                 """, unsafe_allow_html=True)
 
-            conf_color_c = "#00796B" if conf_cam >= 0.6 else "#F57F17"
+            conf_color_c = "#3A7D44" if conf_cam >= 0.6 else "#F57F17"
             st.markdown(f"""
             <div class="conf-label" style="margin-top:12px;">CONFIDENCE</div>
             <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;">
               <div style="flex:1; background:rgba(0,121,107,0.12); border-radius:99px; height:12px; overflow:hidden; border:1px solid rgba(0,121,107,0.2);">
                 <div style="width:{conf_cam*100:.1f}%; height:100%;
-                  background:linear-gradient(90deg,#004D40,{conf_color_c}); border-radius:99px;"></div>
+                  background:linear-gradient(90deg,#235C2A,{conf_color_c}); border-radius:99px;"></div>
               </div>
               <span style="font-family:'Space Mono',monospace; font-size:0.88rem; font-weight:700; color:{conf_color_c};">
                 {conf_cam*100:.1f}%
@@ -789,7 +789,7 @@ with tab3:
 
         # Recycling rate bar
         st.markdown('<div class="section-title">Recycling Rate</div>', unsafe_allow_html=True)
-        rate_color = "#00796B" if rec_pct >= 50 else "#F57F17"
+        rate_color = "#3A7D44" if rec_pct >= 50 else "#F57F17"
         st.markdown(f"""
         <div class="glass-card" style="padding:18px 24px;">
           <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
@@ -798,7 +798,7 @@ with tab3:
           </div>
           <div style="background:rgba(0,121,107,0.12); border-radius:99px; height:20px; overflow:hidden; border:1px solid rgba(0,121,107,0.15);">
             <div style="width:{rec_pct:.1f}%; height:100%;
-              background:linear-gradient(90deg,#004D40,#26A69A); border-radius:99px;
+              background:linear-gradient(90deg,#235C2A,#5A9E62); border-radius:99px;
               display:flex; align-items:center; justify-content:flex-end; padding-right:8px;">
               <span style="font-size:0.7rem; color:rgba(255,255,255,0.9); font-weight:600;">{rec_pct:.0f}%</span>
             </div>
@@ -814,14 +814,14 @@ with tab3:
             df = pd.DataFrame(list(counts.items()), columns=["Waste Type", "Count"])
             df["Waste Type"] = df["Waste Type"].str.title()
             df = df.sort_values("Count", ascending=False)
-            st.bar_chart(df.set_index("Waste Type"), color="#00796B", height=280)
+            st.bar_chart(df.set_index("Waste Type"), color="#3A7D44", height=280)
 
         with col_breakdown:
             st.markdown('<div class="section-title">Class Breakdown</div>', unsafe_allow_html=True)
             for wtype, cnt in sorted(counts.items(), key=lambda x: -x[1]):
                 pct = cnt / total_s * 100
                 icon = "♻️" if wtype in RECYCLABLE_CLASSES else "🗑️"
-                bar_c = "#00796B" if wtype in RECYCLABLE_CLASSES else "#C62828"
+                bar_c = "#3A7D44" if wtype in RECYCLABLE_CLASSES else "#C62828"
                 st.markdown(f"""
                 <div class="glass-card" style="padding:12px 16px; margin-bottom:8px;">
                   <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
@@ -852,7 +852,7 @@ with tab3:
           </div>
           <div style="color:#78909C; font-size:0.92rem; line-height:1.7;">
             Start classifying waste in the
-            <strong style="color:#00796B;">Classify Waste</strong> tab
+            <strong style="color:#3A7D44;">Classify Waste</strong> tab
             to see your analytics here.
           </div>
         </div>
