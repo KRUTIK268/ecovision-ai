@@ -4,4 +4,3 @@ torch
 pillow
 pandas
 altair
-opencv-python-headless
